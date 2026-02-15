@@ -1,0 +1,35 @@
+Rows: 525461
+Columns: 8
+
+Column Info:
+Invoice         object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+Price          float64
+Customer ID    float64
+Country         object
+dtype: object
+
+Memory Usage:
+Index               128
+Invoice        33114252
+StockCode      32651237
+Description    43837135
+Quantity        4203688
+InvoiceDate    39935036
+Price           4203688
+Customer ID     4203688
+Country        37019904
+dtype: int64
+
+Sample Data:
+  Invoice StockCode                          Description  ...  Price Customer ID         Country
+0  489434     85048  15CM CHRISTMAS GLASS BALL 20 LIGHTS  ...   6.95     13085.0  United Kingdom
+1  489434    79323P                   PINK CHERRY LIGHTS  ...   6.75     13085.0  United Kingdom
+2  489434    79323W                  WHITE CHERRY LIGHTS  ...   6.75     13085.0  United Kingdom
+3  489434     22041         RECORD FRAME 7" SINGLE SIZE   ...   2.10     13085.0  United Kingdom
+4  489434     21232       STRAWBERRY CERAMIC TRINKET BOX  ...   1.25     13085.0  United Kingdom
+
+[5 rows x 8 columns]

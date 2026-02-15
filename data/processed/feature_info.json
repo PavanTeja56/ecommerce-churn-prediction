@@ -1,0 +1,38 @@
+{
+    "total_customers": 3059,
+    "total_features": 25,
+    "churn_distribution": {
+        "0": 0.6338672768878718,
+        "1": 0.36613272311212813
+    },
+    "feature_list": [
+        "CustomerID",
+        "churn",
+        "Recency",
+        "Frequency",
+        "Monetary",
+        "TotalQuantity",
+        "AvgOrderValue",
+        "TotalInvoices",
+        "CustomerLifetimeDays",
+        "AvgDaysBetweenPurchases",
+        "PurchaseRatePerMonth",
+        "WeekendPurchaseRatio",
+        "EveningPurchaseRatio",
+        "UniqueActiveMonths",
+        "UniqueActiveDays",
+        "MonthlyPurchaseVariance",
+        "UniqueProducts",
+        "ProductDiversityRatio",
+        "AvgItemsPerInvoice",
+        "RepeatPurchaseRatio",
+        "TopProductConcentration",
+        "RecencyScore",
+        "MonetaryScore",
+        "RevenuePerMonth",
+        "QuantityPerMonth",
+        "InvoiceFrequencyScore",
+        "EngagementScore"
+    ],
+    "missing_values": 0
+}
