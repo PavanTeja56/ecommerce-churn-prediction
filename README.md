@@ -200,6 +200,12 @@ ecommerce-churn-prediction/
 
 - Containerizing ML applications using Docker
 
+## 📽 Presentation Slides
+
+Download the final presentation here:
+
+[Project Presentation](src/docs/Ecommerce_Churn_Prediction_Corporate_Presentation.pptx)
+
 Author 
 Pavan Teja 
 Data Science Project - 2026
