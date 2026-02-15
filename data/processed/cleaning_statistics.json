@@ -1,0 +1,55 @@
+{
+    "original_rows": 525461,
+    "rows_after_cleaning": 342273,
+    "rows_removed": 183188,
+    "retention_rate": 65.14,
+    "missing_values_before": {
+        "CustomerID": 107927,
+        "Description": 0
+    },
+    "missing_values_after": {
+        "InvoiceNo": 0,
+        "StockCode": 0,
+        "Description": 0,
+        "Quantity": 0,
+        "InvoiceDate": 0,
+        "UnitPrice": 0,
+        "CustomerID": 0,
+        "Country": 0,
+        "TotalPrice": 0,
+        "Year": 0,
+        "Month": 0,
+        "DayOfWeek": 0,
+        "Hour": 0
+    },
+    "steps_applied": [
+        {
+            "step": "remove_missing_customer_ids",
+            "rows_removed": 107927
+        },
+        {
+            "step": "remove_cancelled_invoices",
+            "rows_removed": 9839
+        },
+        {
+            "step": "remove_negative_quantities",
+            "rows_removed": 0
+        },
+        {
+            "step": "remove_invalid_prices",
+            "rows_removed": 31
+        },
+        {
+            "step": "remove_missing_descriptions",
+            "rows_removed": 0
+        },
+        {
+            "step": "remove_outliers",
+            "rows_removed": 59051
+        },
+        {
+            "step": "remove_duplicates",
+            "rows_removed": 6340
+        }
+    ]
+}
